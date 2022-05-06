@@ -30,9 +30,27 @@ body button {
   box-shadow: 0;
   border-radius: 5px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 #game-board {
     float: left;
     padding: 20px 0px;
+}
+
+#score-counter {
+  position: absolute;
+  top: 124px;
+  left: 860px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h3 {
+  position: absolute;
+  top: 100px;
+  left: 790px;
+  color: white;
+  font-size: 22px;
 }
